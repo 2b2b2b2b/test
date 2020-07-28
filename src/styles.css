@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.wrapper {
+  padding: 10px;
+}
+.adress-table {
+  width: 100%;
+}
+
+.adress-table-header {
+  display: flex;
+  border-radius: 6px;
+  background: #f3f4fb;
+  padding-left: 50px;
+}
+.adress-table-header-label {
+  height: 40px;
+  font-size: 12px;
+  flex: 1;
+  justify-content: center;
+  color: #a0a2b3;
+  font-weight: bold;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+}
+.phone-label {
+  flex: 2;
+  cursor: unset;
+  flex-direction: column;
+}
+.sub-label {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  cursor: pointer;
+}
+.adress-table-body {
+  height: 400px;
+  overflow: auto;
+  width: 100%;
+}
+.adress-item {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  height: 40px;
+  align-items: center;
+}
+.adress-item input[type="checkbox"] {
+  width: 50px;
+}
+.adress-item .adress-item-input {
+  width: 0;
+  flex: 1;
+  border: 0;
+  height: 100%;
+  text-align: center;
+}
+.adress-item .adress-item-input:focus {
+  outline: 1px solid #a0a2b3;
+  outline-offset: -1px;
+}
+.label-placeHolder {
+  flex: 1;
+  font-size: 14px;
+  text-align: center;
+  user-select: none;
+  line-height: 40px;
+  height: 40px;
+}
+.btn-group {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+button {
+  width: 60px;
+  height: 30px;
+  margin-left: 15px;
+  border: 0;
+  color: #fff;
+  border-radius: 6px;
+}
+.add-btn {
+  background: #1890ff;
+}
+.deleted-btn {
+  background: #ff4d4f;
+}
+.update-btn {
+  background: #52c41a;
+}
